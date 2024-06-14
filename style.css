@@ -1,0 +1,117 @@
+header {
+    background-color: #f0f0f0; /* Цвет фона шапки */
+    padding: 20px 0; /* Отступы сверху и снизу */
+}
+
+.container {
+    display: flex; /* Выравнивание элементов по горизонтали */
+    justify-content: space-between; /* Распределение пространства между элементами */
+    align-items: center; /* Выравнивание элементов по вертикали */
+    width: 90%; /* Ширина контейнера */
+    margin: 0 auto; /* Автоматические отступы по бокам */
+}
+
+.logo img {
+    width: 100px; /* Ширина логотипа */
+}
+
+.title h1 {
+    margin: 0; /* Отступы сверху и снизу */
+    font-size: 24px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+nav ul {
+    list-style: none; /* Удаление маркеров списка */
+    margin: 0; /* Отступы сверху и снизу */
+    padding: 0; /* Отступы слева и справа */
+    display: flex; /* Выравнивание элементов по горизонтали */
+}
+
+nav li {
+    margin-left: 20px; /* Отступ слева */
+}
+
+nav a {
+    text-decoration: none; /* Удаление подчеркивания */
+    color: #333; /* Цвет текста */
+}
+
+.search input {
+    padding: 8px; /* Отступы внутри поля ввода */
+    border: 1px solid #ccc; /* Граница поля ввода */
+    border-radius: 5px; /* Закругленные углы */
+    font-size: 16px; /* Размер шрифта */
+}
+/* Стиль для секции "Hero" */
+.hero {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.hero-text {
+    width: 50%; /* Ширина текста */
+}
+
+.hero-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #007bff; /* Цвет кнопки */
+    color: white; /* Цвет текста кнопки */
+    padding: 15px 30px; /* Отступы внутри кнопки */
+    border: none; /* Без границы */
+    border-radius: 5px; /* Закругленные углы */
+    text-decoration: none; /* Удаление подчеркивания */
+    font-size: 18px;
+}
+
+.hero-image {
+    width: 50%;
+    text-align: right; /* Выравнивание изображения */
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+/* Стиль для секции "О АКИ" */
+.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Стиль для секций "Новости" и "Мероприятия" */
+.news, .events {
+    padding: 50px 0;
+}
+
+.news h2, .events h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Стиль для контейнера */
+.container {
+    display: flex; /* Выравнивание элементов по горизонтали */
+    justify-content: space-between; /* Распределение пространства между элементами */
+    align-items: center; /* Выравнивание элементов по вертикали */
+    width: 90%; /* Ширина контейнера */
+    margin: 0 auto; /* Автоматические отступы по бокам */
+}
